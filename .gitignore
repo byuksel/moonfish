@@ -1,0 +1,12 @@
+**/.DS_Store
+node_modules
+# Ignore Emacs autosaves of older versions
+**/*~
+# Ignore Emacs auto rescue files
+**/#*#
+**/.#*
+# Ignore browserify output
+browser/dist/**/*
+browser/test/browserified_tests.js
+test/output/*
+examples/**/*
