@@ -1,0 +1,70 @@
+{
+  "name": "moonfish",
+  "version": "0.0.1",
+  "description": "A comprehensive machine learning library in Javascript.",
+  "keywords": [
+    "machine learning",
+    "artificial intelligence",
+    "ai",
+    "ml",
+    "neural networks"
+  ],
+  "homepage": "http://moonfishjs.com",
+  "author": {
+    "name": "Baris Yuksel",
+    "url": "http://barisyuksel.com"
+  },
+  "contributors": [
+    {
+      "name": "Baris Yuksel",
+      "url": "http://barisyuksel.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byuksel/moonfish.git"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.8.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-env": "^0.4.4",
+    "grunt-mocha-cov": "^0.4.0",
+    "grunt-mocha-phantomjs": "^0.6.1",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.3",
+    "sinon-chai": "^2.8.0",
+    "time-grunt": "*",
+    "uglify-js": "^2.4.23"
+  },
+  "testling": {
+    "browsers": [
+      "ie8",
+      "ie9",
+      "ie10",
+      "ie10",
+      "ff/15",
+      "ff/20",
+      "ff/25",
+      "ff/nightly",
+      "chrome/29",
+      "chrome/canary",
+      "opera/15",
+      "opera/next",
+      "safari/6.0"
+    ],
+    "harness": "mocha",
+    "files": "test/*.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/byuksel/moonfish/blob/master/LICENSE.txt"
+    }
+  ]
+}

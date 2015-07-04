@@ -10,3 +10,5 @@ browser/dist/**/*
 browser/test/browserified_tests.js
 test/output/*
 examples/**/*
+# Ignore npm stuff
+npm-debug.log
